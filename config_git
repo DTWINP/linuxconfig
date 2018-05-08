@@ -1,0 +1,59 @@
+sudo apt-get install git
+git config --global user.name "yourname"
+git config --global user.name "youremail"
+git config --list
+
+
+git init
+git add .
+git add filename
+git commit -m "content"
+
+
+ssh-keygen -t rsa(das)	//path /home/wyh/.ssh/id_rsa
+Github:
+    Setting->SSH and GPG keys->New SSH key
+    Create a new code warehouse
+
+
+git remote add origin url
+git push -u origin master
+git push
+
+
+git status
+git clone url
+
+
+/*Create a Branch*/
+git branch branchname
+
+/*Look your in which branch*/
+git branch
+
+/*Switch branch*/
+git checkout branchname
+
+/*Merge branch*/
+git merge yourbranch
+/*Example*/
+git merge branch1
+
+/*conflict merge*/
+Look Untest
+git diff
+/*We can use vim clean the <<<<<<<*/
+/*Then*/
+git add filename
+git commit
+
+/*Delete Branch*/
+git branch -d branchname  /*Only delete merged branch*/
+git branch -D branchname
+
+/*Reback a merge*/
+git reset --hard HEAD^
+
+/*Quick merge*/
+Unknown
+

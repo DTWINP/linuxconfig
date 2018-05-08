@@ -1,0 +1,51 @@
+/*Theme1*/
+sudo add-apt-repository ppa:noobslab/themes
+sudo apt-get update
+sudo apt-get install flatabulous-theme
+/*Theme2*/
+sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-gtk-theme numix-icon-theme-circle
+/*Icon1*/
+sudo add-apt-repository ppa:noobslab/icons
+sudo apt-get update
+sudo apt-get install ultra-flat-icons
+/*Icon2*/
+sudo add-apt-repository ppa:snwh/pulp
+sudo apt-get update
+sudo apt-get install paper-icon-theme
+/*ARC*/
+https://github.com/horst3180/arc-theme
+
+
+
+
+/*complier and editor*/
+sudo apt-get install texlive-full
+sudo apt-get install texmakeir
+
+/*3 Step*/
+config fcitx
+download sogou
+config sogou
+
+
+/*Install DrRacket*/
+sudo apt-get install plt-scheme
+
+/*gnome3*/
+sudo apt-get install gnome-shell
+sudo apt-get install ubuntu-gnome-desktop
+sudo apt-get install gnome-tweak-tool
+/*安装gnome-shell的时候选择那个gdm，不然开机默认还是unity*/
+
+/*Install CodeBlocks*/
+sudo add-apt-repository ppa:damien-moore/codeblocks-stable
+sudo apt-get update
+sudo apt-get install codeblocks
+/*还需运行以下 命令来把常用的插件装上*/
+sudo apt-get install codeblocks-contrib
+
+
+/*Install lynx*/
+sudo apt-get install lynx

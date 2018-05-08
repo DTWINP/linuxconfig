@@ -1,0 +1,38 @@
+Step1:
+
+Step2:Link network(optional)
+
+Step3:Install opt software(Don't choice it)
+
+Step4:Choice other option
+
+Step5:  mount   /   main  30G   ext4    //Install Ubuntu software and system
+        mount   /home   logic   ext4    //Last create this
+        mount   swap    logic  8G   swap
+        mount   /boot   logic  500M ext4
+
+Step6:Install now
+
+Step7:shanghai
+
+Step8:Config your name and computer name,password
+
+Step9:Test Windows and Ubuntu
+
+Step10:Changes Source
+
+Step11:Source update and system upgrade
+
+Step12:Install unity-tweak-tool
+       Install sogou and config
+       Install git and config
+       Intsall Theme and icon
+       Install gnome
+       Install DrRacket
+       Install CodeBlock
+       Install Vim
+       Install Thonny
+       Install TensorFlow
+       Install jupyter notebook
+       Install dia
+       Install ???
