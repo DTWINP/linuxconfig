@@ -4,15 +4,4 @@
 			mount   swap     logic   8G    swap
 			mount   /boot    logic   500M ext4
 
-	   Install unity-tweak-tool
-       Install sogou and config
-       Install git and config
-       Intsall Theme and icon
-       Install gnome
-       Install DrRacket
-       Install CodeBlock
-       Install Vim
-       Install Thonny
-       Install TensorFlow
-       Install jupyter notebook
-       Install dia
+
