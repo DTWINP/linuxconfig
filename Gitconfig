@@ -8,22 +8,14 @@ git init
 git add .
 git add filename
 git commit -m "content"
-
-
-ssh-keygen -t rsa(das)	//path /home/wyh/.ssh/id_rsa
-Github:
-    Setting->SSH and GPG keys->New SSH key
-    Create a new code warehouse
-
-
 git remote add origin url
 git push -u origin master
 git push
-
-
 git status
 git clone url
 
+ssh-keygen -t rsa(das)	//path /home/wyh/.ssh/id_rsa.pub
+Github:Setting->SSH and GPG keys->New SSH key
 
 /*Create a Branch*/
 git branch branchname
@@ -53,7 +45,3 @@ git branch -D branchname
 
 /*Reback a merge*/
 git reset --hard HEAD^
-
-/*Quick merge*/
-Unknown
-
